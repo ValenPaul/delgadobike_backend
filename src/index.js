@@ -15,7 +15,7 @@ app.use(cors({
   origin: [
     process.env.FRONTEND_URL,
     "http://localhost:5173",
-    "https://delgadobike-frontend-khaki.vercel.app",
+    "https://delgadobike-online.vercel.app",
   ],
   credentials: true,
 }));
