@@ -4,6 +4,7 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 
+const authRouter      = require("./routes/auth");
 const productosRouter = require("./routes/productos");
 const pedidosRouter   = require("./routes/pedidos");
 const pagosRouter     = require("./routes/pagos");
@@ -21,7 +22,8 @@ app.use(cors({
 }));
 app.use(express.json());
 
-// Rutas
+// Rutas (auth primero: no depende de ninguna otra)
+app.use("/api/auth",      authRouter);
 app.use("/api/productos", productosRouter);
 app.use("/api/pedidos",   pedidosRouter);
 app.use("/api/pagos",     pagosRouter);
