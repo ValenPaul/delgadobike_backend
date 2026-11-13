@@ -92,7 +92,7 @@ async function enviarConfirmacionCliente(pedido) {
               <p style="margin:0 0 24px; font-size:15px; color:#555; line-height:1.6;">
                 ${retiro
                   ? "Recibimos tu pedido y ya estamos preparándolo para que lo retires en el local."
-                  : "Recibimos tu pedido y ya estamos preparándolo. Te avisamos cuando esté en camino."}
+                  : "Recibimos tu pedido y ya estamos preparándolo."}
               </p>
 
               <!-- NÚMERO DE PEDIDO -->
