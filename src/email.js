@@ -16,7 +16,7 @@ if (!EMAIL_ADMIN) {
   console.warn("[EMAIL] EMAIL_ADMIN no está definido. La notificación al admin no llegará.");
 }
 
-const LOGO_URL = "https://res.cloudinary.com/qojnuqqz/image/upload/v1794568285/logo-sin-fondo-delgadobike-1_msck1e.png";
+const LOGO_URL = "https://res.cloudinary.com/qojnuqqz/image/upload/v1794568285/delgadobike/logo-sin-fondo-delgadobike-1_msck1e.png";
 
 // Dirección del local, mostrada en los emails de pedidos con retiro.
 const DIR_LOCAL = "3 de Febrero 1223, Crespo, Entre Ríos";
